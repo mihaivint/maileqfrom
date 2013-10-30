@@ -1,0 +1,4 @@
+loadplugin FromEQTo plugins/FromEQTo.pm
+header FROM_EQ_TO eval:check_for_from_eq_to()
+score FROM_EQ_TO 100
+describe FROM_EQ_TO From: equals To: overwrides whitelist score
